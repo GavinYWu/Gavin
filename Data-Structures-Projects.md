@@ -4,8 +4,8 @@ layout: template
 filename: Data-Structures-Projects
 --- 
 
-# Our Story
+# Data Structures Project
 
-We truly started from nothing. Franton was a farm boy in Ohio when I found him, lying on the side of the road. I was a laywer at the time. Once we got to talking, we realized we had something special together. It was at this point that we realized we had to develop patrickandfrantonarethebestninjas.
-
-I'm not going to say it was easy. Because it wasn't. We spent literal minutes before our presentation developing this application, and there were moments when we weren't sure whether it would come to fruition. But it did. Oh boy, it sure did.
+|Task|Runtime|Commits|
+| - | - | - |
+|Python Challenges|[Replit](https://replit.com/@GavinWu3/Gavin-2#)|[Commits](https://github.com/GavinYWu/Gavin/commit/5fc9f83a8cee293628527f0fdbd1cd8c49cc93ee)|
