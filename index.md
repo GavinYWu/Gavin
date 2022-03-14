@@ -6,7 +6,7 @@ filename: index
 
 # AP CSP Tri 3
 
+## By [Gavin Wu](https://github.com/GavinYWu)
 |Weeks|Review Ticket|
 | - | - |
 |Week 0|[Review Ticket](https://github.com/GavinYWu/Gavin/issues/1)|
-## By [Gavin Wu](https://github.com/GavinYWu)
