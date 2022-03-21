@@ -8,8 +8,6 @@ filename: index
 
 ## By [Gavin Wu](https://github.com/GavinYWu)
 
-# Data Structures Project
-
 |Weeks|Runtime|Review Ticket|
 | - | - | - |
 |Week 0|[Replit](https://replit.com/@GavinWu3/Gavin-2#)|[Week 0 Review Ticket](https://github.com/GavinYWu/Gavin/issues/1)|
