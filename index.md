@@ -1,5 +1,5 @@
 ---
-title: Gavin Wu Jeykll Page
+title: Home Page
 layout: template
 filename: index
 --- 
