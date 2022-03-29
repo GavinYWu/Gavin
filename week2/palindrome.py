@@ -60,6 +60,3 @@ def pal():
     print(f"{bad} is {Entry3._is_a_palindrome}")
     print(f"{goodphrase} is {Entry2._is_a_palindrome}")
     print(f"{badphrase} is {Entry4._is_a_palindrome}")
-
-if __name__ == "__main__":
-    pal()

@@ -1,8 +1,9 @@
 class check:
-    def __init__(self,number):
-        self.num = number
+    def __init__(self, number):
+        self.prime = []
     # checks if number is prime
-    def __call__(self):
+
+    def __call__(self, num):
         for x in range(2, int(num ** (1/2)) + 1):
             # checks if any number is divisible by 1, if not then it's not a prime number
             if num % x == 0:
@@ -11,12 +12,12 @@ class check:
         return str(num) + " is not a prime number"
 
 
-if __name__ == "__main__":
+def prime_print():
     num = 23
     checkprime = check(num)
-    print(checkprime())
+    print(checkprime(num))
 
     num = 100
     checkprime = check(num)
-    print(checkprime())
+    print(checkprime(num))
 

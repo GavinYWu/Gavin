@@ -1,12 +1,12 @@
-from week0.christmastree import christmastree
-from week0.ship import ship
-from week0.keypad import print_matrix
-from week0.swap import swap
-from week1.fibonacci import printFibonacci
+from week0 import christmastree
+from week0 import ship
+from week0 import keypad
+from week0 import swap
+from week1 import fibonacci
 from week1.infodb import for_loop,while_loop,recursive_loop
-from week2.factorial import printfactorial
-from week2.prime import check
-from week2.palindrome import Palindrome
+from week2 import factorial
+from week2 import prime
+from week2 import palindrome
 def op1():
     print('Option 1')
 def op2():
@@ -56,7 +56,7 @@ week0 = {
         "exec":ship,
         "type":"func"},
     3: {"display":"Keypad ",
-        "exec":print_matrix,
+        "exec":keypad.matrix_print,
         "type":"func"},
     4: {"display":"Swap ",
         "exec":swap,
@@ -67,8 +67,8 @@ week0 = {
 }
 
 week1 = {
-    1: {"display": "Finbonacci Sequence",
-        "exec": printFibonacci,
+    1: {"display": "Fibonacci Sequence",
+        "exec": fibonacci.printFibonacci,
         "type": "func"},
     2: {"display": "InfoDB",
         "exec": InfoDB,
@@ -77,13 +77,13 @@ week1 = {
 
 week2 = {
     1: {"display": "Factorial",
-        "exec": printfactorial,
+        "exec": factorial.printfactorial,
         "type": "func"},
     2: {"display": "Prime Number Checker",
-        "exec": check,
+        "exec": prime.prime_print,
         "type": "func"},
     3: {"display": "Palindromes",
-        "exec": Palindrome,
+        "exec": palindrome.pal,
         "type": "func"}
 }
 
