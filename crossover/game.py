@@ -13,3 +13,11 @@ def game(a,b):
                 cont = input("Continue?: ")
                 if (cont == "No" or cont == "no"):
                     on = False
+            elif(guess > answer and guess <= b):
+                print("Too high")
+                count += 1
+                break
+            elif(guess < answer and guess >= a):
+                print("Too Low")
+                count += 1
+                break
