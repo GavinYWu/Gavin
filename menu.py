@@ -7,6 +7,8 @@ from week1.infodb import for_loop,while_loop,recursive_loop
 from week2 import factorial
 from week2 import prime
 from week2 import palindrome
+from crossover import game
+
 def op1():
     print('Option 1')
 def op2():
@@ -96,7 +98,10 @@ mainMenu = {
         "type": "submenu"},
     3: {"display":"Week 2",
         "exec": week2,
-        "type": "submenu"}
+        "type": "submenu"},
+    4: {"display":"Crossover Guessing Game",
+        "exec": game.gamerun,
+        "type": "func"}
 }
 
 if __name__ == "__main__":
