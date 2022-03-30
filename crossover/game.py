@@ -21,3 +21,10 @@ def game(a,b):
                 print("Too Low")
                 count += 1
                 break
+            else:
+                print("Number outside predefined range")
+                break
+def gamerun():
+    a = int(input("Choose lowest number for range: "))
+    b = int(input("Highest number: "))
+    game(a,b)
