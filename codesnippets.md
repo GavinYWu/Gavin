@@ -1,3 +1,8 @@
+---
+title: Code Snippets
+layout: template
+filename: codesnippets
+--- 
 # Code Snippets
 
 ## Week 2 Code Snippets
