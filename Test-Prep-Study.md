@@ -1,8 +1,4 @@
----
-title: Test Prep Study
-layout: template
-filename: Test-Prep-Study
---- 
+{% include navbar.html %}
 
 # Test Prep Study
 
