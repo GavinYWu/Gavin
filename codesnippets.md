@@ -1,8 +1,5 @@
----
-title: Code Snippets
-layout: template
-filename: codesnippets
---- 
+{% include navbar.html %}
+
 # Code Snippets
 
 ## Week 2 Code Snippets
