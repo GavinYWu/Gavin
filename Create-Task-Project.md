@@ -1,8 +1,4 @@
----
-title: Create Task Project
-layout: template
-filename: Create-Task-Project
---- 
+{% include navbar.html %}
 
 # Create Task Project
 
