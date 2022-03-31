@@ -6,24 +6,29 @@ def game(a,b):
         answer = random.randint(a, b)
         count = 0
         guess = int(input("Guess a number in range " + str(a) + "," + str(b) + ": "))
-        while guess is not answer:
-            if guess == answer:
-                print("Yea")
-                print("Guesses: ", count)
-                cont = input("Continue?: ")
-                if (cont == "No" or cont == "no"):
-                    on = False
-            elif(guess > answer and guess <= b):
+        while guess != answer:
+            if(guess > answer and guess <= b):
                 print("Too high")
+                guess = int(input("Guess a number in range " + str(a) + "," + str(b) + ": "))
                 count += 1
-                break
+
             elif(guess < answer and guess >= a):
                 print("Too Low")
-                count += 1
-                break
+                guess = int(input("Guess a number in range " + str(a) + "," + str(b) + ": "))
+                count += 14
+
             else:
                 print("Number outside predefined range")
-                break
+                guess = int(input("Guess a number in range " + str(a) + "," + str(b) + ": "))
+
+
+        print("Yea")
+        print("Guesses: ", count)
+        cont = input("Continue?: ")
+        if (cont == "No" or cont == "no"):
+            on = False
+        else:
+            on = True
 def gamerun():
     a = int(input("Choose lowest number for range: "))
     b = int(input("Highest number: "))
