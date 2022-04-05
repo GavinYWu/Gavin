@@ -3,7 +3,7 @@ from week0 import ship
 from week0 import keypad
 from week0 import swap
 from week1 import fibonacci
-from week1.infodb import for_loop,while_loop,recursive_loop
+from week1.infodb import run
 from week2 import factorial
 from week2 import prime
 from week2 import palindrome
@@ -17,12 +17,15 @@ def op2():
 def buildMenu(menu):
     for key,value in menu.items():
         display = value["display"]
+      # Print each menu item
         print(f"{key} ------ {display}")
     print("What is your choice? (enter the number value) ")
 
 def presentMenu(menu):
     buildMenu(menu)
+  # Take input
     choice = int(input())
+  # Make sure input matches one of the choices
     if (choice) in menu:
         if menu[choice]["type"] == "func":
             menu[choice]["exec"]()
@@ -35,18 +38,6 @@ subMenu = {
         "type":"func"},
     2: {"display":"Option 2",
         "exec":op2,
-        "type":"func"}
-}
-
-InfoDB = {
-    1: {"display":"For Loop",
-        "exec": for_loop,
-        "type":"func"},
-    2: {"display":"While Loop",
-        "exec": while_loop,
-        "type":"func"},
-    3: {"display":"Recursive Loop",
-        "exec": recursive_loop,
         "type":"func"}
 }
 
@@ -73,7 +64,7 @@ week1 = {
         "exec": fibonacci.printFibonacci,
         "type": "func"},
     2: {"display": "InfoDB",
-        "exec": InfoDB,
+        "exec": run,
         "type": "func"}
 }
 

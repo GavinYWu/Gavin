@@ -51,3 +51,14 @@ def recursive_loop(x):
         print_data(x)
         recursive_loop(x+1)
         return recursive_loop(x + 1)
+
+def run():
+  print("For loop")
+  for_loop()
+  print("While loop")
+  while_loop(0)
+  print("Recursive loop")
+  recursive_loop
+
+if __name__=="__main__":
+  run()
