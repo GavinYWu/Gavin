@@ -1,4 +1,8 @@
-{% include navbar.html %}
+---
+title: Data Structures Projects
+layout: template
+filename: Data-Structures-Projects
+--- 
 
 ## [Code Snippets](https://gavinywu.github.io/Gavin/codesnippets)
 
