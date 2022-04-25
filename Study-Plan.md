@@ -1,3 +1,9 @@
+---
+title: Study Plan
+layout: template
+filename: Study-Plan
+--- 
+
 # AP Test Prep
 - Finish and make sure create task meets all requirements
 - Rewatch old collegeboard videos
