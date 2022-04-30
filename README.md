@@ -1,2 +1,0 @@
-# Gavin
-Individual Github repository
