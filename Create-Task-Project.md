@@ -93,3 +93,7 @@ Sorry! You failed in History! You need to retake it.
 You passed 1 course(s) and failed 2 course(s)! Go study harder!
 
 Your average score is 54.93333333333334”
+
+
+
+#I think that your code is pretty good and that it meets all of your collegeboard requirements. I think that your written response is very good and well organized however you should make sure that it is under the word limit of 850 words.  
